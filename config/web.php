@@ -18,6 +18,7 @@ $config = [
             'cookieValidationKey' => 'B5OamIfXWb-ow1jj0-QOuTZt9m48bycy',
         ],
         'cache' => [
+
             'class' => 'yii\caching\FileCache',
         ],
         'user' => [
