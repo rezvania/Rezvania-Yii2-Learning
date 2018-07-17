@@ -13,7 +13,7 @@ use yii\web\AssetBundle;
 
 class PayAsset extends AssetBundle
 {
-    public $basePat='@web';
+    public $basePat='@webroot';
     public $baseUrl='@web';
 
     public $css=[

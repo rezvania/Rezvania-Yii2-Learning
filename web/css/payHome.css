@@ -1,3 +1,19 @@
-body{
-    background: red;
+.container {
+    overflow: hidden;
+}
+
+.sliding-background {
+    background: url('../img/bg/bg-header.jpg') repeat-x;
+    height: 560px;
+    width: 5076px;
+    animation: slide 20s linear infinite;
+}
+
+@keyframes slide{
+    0%{
+        transform: translate3d(0, 0, 0);
+    }
+    100%{
+        transform: translate3d(-1692px, 0, 0);
+    }
 }
