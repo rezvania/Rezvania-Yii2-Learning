@@ -9,5 +9,8 @@
 ?>
 
 <div class="container">
-    <div class="sliding-background">TEST</div>
+    <div class="sliding-background"></div>
+    <div class="frontOfSlide">
+        <h1>TEST</h1>
+    </div>
 </div>
